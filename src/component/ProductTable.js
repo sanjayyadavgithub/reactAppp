@@ -54,8 +54,8 @@ class ProductTable extends React.Component {
     });
 
     return (
-      <div>
-        <table>
+      <div style={{textAlign:'center',marginLeft:'auto',marginRight:'auto'}}>
+        <table style={{border:'3px solid green'}}>
           <thead>
             <tr>
               <SortableColumnHeader

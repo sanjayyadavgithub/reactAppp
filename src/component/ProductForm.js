@@ -32,6 +32,7 @@ class ProductForm extends React.Component {
   }
   render() {
     return (
+     <div style={{border:'2px solid red', textAlign:'center', backgroundColor:'yellow'}}>
       <form>
         <h3>Enter a new product</h3>
         <p>
@@ -63,6 +64,7 @@ class ProductForm extends React.Component {
         </p>
         <input type="submit" value="Save" onClick={this.handleSave}/>
       </form>
+      </div>
     );
   }
 }
